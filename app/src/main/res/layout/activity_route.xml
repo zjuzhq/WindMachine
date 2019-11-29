@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RouteActivity"
+    android:padding="10dp"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="720dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="360dp"
+            android:layout_height="720dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="360dp"
+                android:layout_height="720dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                app:srcCompat="@mipmap/route" />
+
+            <Button
+                android:id="@+id/gaozeng"
+                android:layout_width="44dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="294dp"
+                android:layout_marginTop="235dp"
+                android:layout_marginEnd="22dp"
+                android:background="#007E4242"
+                android:text=" " />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
